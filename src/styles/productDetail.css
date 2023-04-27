@@ -1,0 +1,39 @@
+.product__detail {
+  margin-top: 4.375rem;
+  color: var(--primary-color);
+}
+
+.product__detail h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.625rem;
+}
+
+.product__rating span i {
+  color: coral;
+}
+
+.product__price {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: var(--primary-color);
+}
+
+.tab__wrapper {
+  color: var(--primary-color);
+  font-weight: 500;
+}
+
+.active__tab {
+  font-weight: 600;
+}
+
+.tab__content {
+  line-height: 1.875rem;
+}
+
+.review__wrapper ul li span {
+  color:coral;
+  font-weight: 600;
+}
+
+.review__form

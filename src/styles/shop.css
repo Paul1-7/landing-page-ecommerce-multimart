@@ -1,0 +1,47 @@
+select {
+  padding: 0.625rem 1.25rem;
+  border: 1px solid var(--primary-color);
+  cursor: pointer;
+  border-radius: 0.3125rem;
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+select:focus {
+  outline: none;
+}
+
+option {
+  font-size: 0.9rem;
+}
+
+.search__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid var(--primary-color);
+  border-radius: 0.3125rem;
+  padding-right: 0.75rem;
+  padding-left: 0.125rem;
+  cursor: pointer;
+}
+
+.search__box input {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 0.5rem 0.625rem;
+}
+
+.search__box span {
+  color: var(--primary-color);
+}
+
+.product-not-found {
+  padding: 2rem;
+  text-align: center;
+}
+
+.product-not-found h2 {
+  color: var(--primary-color);
+}

@@ -1,0 +1,17 @@
+.time-clock {
+  font-size: 1.5rem;
+}
+
+.label-clock {
+  font-size: 1.1rem;
+}
+
+@media only screen and (max-width: 576px) {
+  .time-clock {
+    font-size: 1rem;
+  }
+
+  .label-clock {
+    font-size: 0.8rem;
+  }
+}
